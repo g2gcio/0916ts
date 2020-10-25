@@ -9,7 +9,6 @@ options.headless = True
 options.add_argument("--window-size=1920,1200")
 
 driver = webdriver.Chrome("C:\\sw\\Python38\\chromedriver.exe",options=options)
-output_file = open('result-tables.txt', 'w', encoding="utf-8")
 URL_root = "https://www.singaporepools.com.sg/en/product/Pages/4d_results.aspx?sppl=RHJhd051bWJlcj00"
 
 if True:
